@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#a53860,#fec89a);
+}
+
+nav {
+    height: 60px;
+    background-color: #edede9;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+nav ul {
+    margin: 0px 0px 0px 500px;
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    margin: 25px 40px 10px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #fec89a;
+    color: #00a6fb;
+    border-radius: 10px;
+    transform: 1s all ease ;
+    transition-duration: 1s;
+}
+nav ul li a:hover{
+    color: #a53860;
+    background-color:#bfd7ff;
+}
+
+.container{
+ height: 600px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ align-items: start;
+ margin-top: 100px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;    
+}
+.contact h2{
+ font-size: 50px;
+ font-weight: 700;
+ margin: 0;
+ color: #5e0324;
+}
+.contact_input{
+width: 500px;
+height: 50px;
+border: none;
+outline: none;
+font-weight: 600;
+padding-left: 25px;
+border-radius: 40px;
+}
+.left textarea{
+    height: 150px;
+    padding-top: 20px;
+    font-size: large;
+    border-radius: 20px;
+}
+.contact_input:focus{
+    border: 2px solid #5a189a;
+}
+button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f2421;
+    border: none;
+    border-radius: 20px;
+    background:linear-gradient(270deg,rgb(60, 128, 188) , rgb(171, 61, 162));
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 1s all ease;
+    transition-duration: 0.8s;
+}
+button:hover{
+    color: black;
+    background:linear-gradient(270deg,rgb(3, 132, 245) , rgb(218, 22, 202));
+     font-size: 21px; 
+    
+}
+
+.right{
+    margin-top: -30px;
+}

@@ -1,0 +1,130 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#bde0fe,#faedcd);
+
+}
+
+nav {
+    height: 60px;
+    background-color: #edede9;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+nav ul {
+    margin: 0px 0px 0px 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    margin: 25px 40px 10px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #fec89a;
+    color: #00a6fb;
+    border-radius: 10px;
+    transform: 1s all ease;
+    transition-duration: 1s;
+}
+
+nav ul li a:hover {
+    color: #a53860;
+    background-color: #bfd7ff;
+}
+
+.myself {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 20px;
+    color: #6c757d;
+}
+
+#hi {
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #eb5e28;
+    font-family: serif;
+}
+
+#myname {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f4978e;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.education{
+    margin-top: 180px;
+    font-size: 40px;
+    margin-left: -30px;
+    color: #d49f4a;
+}
+.info h5{
+     font-size: 25px;
+     color: #a53860;
+     margin-bottom: 25px;
+}
+.info .add{
+ color: #eb5e28;
+ font-size: 18px;
+}
+p{
+    font-weight: 600;
+}
+
+.ten{
+    margin-top: 100px;
+    color: #ef233c;
+}
+.twelve{
+    margin-top:  100px; 
+    color: #3a0ca3;
+}
+.btech{
+    margin-top: 100px;
+    color: #003566;
+}
+.degine{
+    text-align: center;
+    color: #da2c38;
+    padding-top: 50px;
+}
