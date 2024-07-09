@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(79, 154, 220);
+}
+
+h1 {
+    margin-left: 600px;
+    margin-top: 20px;
+    color: brown;
+}
+
+.con {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 450px;
+    height: 600px;
+    background-color: #2b2d42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.display {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 18px;
+    justify-content: flex-end;
+    font-size: 4em;
+    background-color: #14213d;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+p {
+    padding-right: 15px;
+}
+
+button {
+    width: 102px;
+    height: 77px;
+    padding: 3;
+    border-radius: 30%;
+    font-size: 2em;
+    color: #ffba08;
+    transform: all 1s ease;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    width: 105px;
+    height: 80px;
+    padding: 0;
+    background-color: #B0C7BD;
+    color: #8D5A97;
+
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.ans {
+    color: #000000;
+    background-color: #b8c0ff;
+}
+.cancle{
+    transform: all 1s ease;
+    transition-duration: 0.5s;
+    color: #E03616;
+}
+.cancle:hover{
+  background-color: #ffb3c1;
+}
+.ac{
+    transform: all 1s ease;
+    transition-duration: 0.5s;
+}
+.ac:hover{
+    background-color: #ff758f;
+    color: #004e89;
+}
